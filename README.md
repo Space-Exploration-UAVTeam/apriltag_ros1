@@ -1,8 +1,8 @@
 # Fixed camera params
-write global variables fir camera intrinsics, distortion coefficients, image width, image height and OpenCV distortion maps. rewrite fuction detectTags and getRelativeTransform with no camera parameters passing in. 
-so that continuous_detector could spare the trouble of subscribeCamera, and subscribe for the image ONLY.
+write global variables fir camera intrinsics, distortion coefficients, image width, image height and OpenCV distortion maps. rewrite fuction detectTags and getRelativeTransform with no camera parameters passing in.   
+so that continuous_detector could spare the trouble of subscribeCamera, and subscribe for the image ONLY.  
 single image service is not changed...
----------------------------------------------
+---
 
 # apriltag_ros
 
