@@ -417,8 +417,8 @@ AprilTagDetectionArray TagDetector::detectTags (const cv_bridge::CvImagePtr& ima
 
 
   // cv::imshow("gray_image", gray_image);
-  cv::Mat UndistortImage;
-  remap(gray_image, UndistortImage, map1, map2, cv::INTER_LINEAR);
+  // cv::Mat UndistortImage;
+  // remap(gray_image, UndistortImage, map1, map2, cv::INTER_LINEAR);
   // cv::imshow("UndistortImage", UndistortImage);
   // cv::waitKey(10);
 
